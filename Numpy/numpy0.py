@@ -3,22 +3,6 @@
 # Import NumPy
 import numpy as np
 
-# --- NumPy HOME ---
-# NumPy is a powerful Python library for numerical computations.
-# It provides support for arrays, matrices, and many mathematical functions to operate on these data structures.
-# Use "import numpy as np" to access NumPy functions.
-
-# --- NumPy Intro ---
-# NumPy stands for "Numerical Python." It is one of the most popular Python libraries for numerical and scientific computing.
-# It provides efficient storage and operations for large multi-dimensional arrays and matrices.
-
-# --- NumPy Getting Started ---
-# You can install NumPy via pip if it's not installed yet:
-# pip install numpy
-
-# --- NumPy Creating Arrays ---
-# Arrays in NumPy are created using np.array() or np.arange(), np.ones(), np.zeros(), etc.
-
 # Example: Creating a NumPy array
 arr = np.array([1, 2, 3, 4])  # 1D array
 print(arr)
@@ -64,8 +48,7 @@ print(slice_2d)
 # NumPy supports various data types. You can specify the type using the dtype argument.
 arr_int = np.array([1, 2, 3], dtype=int)  # integer array
 arr_float = np.array([1.1, 2.2, 3.3], dtype=float)  # float array
-print(arr_int)
-print(arr_float)
+
 
 # --- NumPy Copy vs View ---
 # By default, NumPy passes arrays by reference. You can make a copy using arr.copy(), otherwise, you'll be working with a view.
@@ -139,3 +122,5 @@ print("Sorted 2D Array:\n", arr_2d_sorted)
 # Example: Filter elements in array less than 3
 arr_filter = arr[arr < 3]
 print("Filtered Array (less than 3):", arr_filter)
+
+
